@@ -8,10 +8,10 @@ the game. This file guides through installation and usage of the project.
 
 #### Prerequisites
 1. Install RPi.GPIO library for python:
-
-	  $ sudo apt-get update
-  
-    $ sudo apt-get install rpi.gpio
+	
+	
+		$ sudo apt-get update
+    	$ sudo apt-get install rpi.gpio
 
 #### Components Used
 1. 5 LED's
@@ -30,7 +30,9 @@ the game. This file guides through installation and usage of the project.
 4. Connect GPIO pins for ground and Vcc(5V).
 5. Connect GPIO pin 9 to LED 5 which will remain on till the end of the script.(Reference LED)
 
-![alt text](https://raw.githubusercontent.com/Ayush-IITP/Raspberry-PI-Project/master/'Memory Game'/sim.png)
+The Required connection is showed in the diagram :
+![alt text](https://github.com/Ayush-IITP/Raspberry-PI-Project/blob/master/MemoryGame/sim.png)
+
 #### Usage
 1. Run python pimon.py for playing the game with switch.
 2. Start the game with Motion Sensor using Motion and LED no.5 will glow till script has ended. 
@@ -69,6 +71,9 @@ Additional things .
 
 2.An android phone.
 3.Android studio on computer to put the app on the phone.
+
+Screen Shot of Android Application :
+![alt text](https://github.com/Ayush-IITP/Raspberry-PI-Project/blob/master/Binary%20%20to%20Gray%20code/Screenshot_20170418-000520.png)
 
 ####Components Used
 1. 4 LED's
