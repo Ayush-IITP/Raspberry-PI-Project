@@ -30,6 +30,7 @@ the game. This file guides through installation and usage of the project.
 4. Connect GPIO pins for ground and Vcc(5V).
 5. Connect GPIO pin 9 to LED 5 which will remain on till the end of the script.(Reference LED)
 
+![alt text](https://raw.githubusercontent.com/Ayush-IITP/Raspberry-PI-Project/master/'Memory Game'/sim.png)
 #### Usage
 1. Run python pimon.py for playing the game with switch.
 2. Start the game with Motion Sensor using Motion and LED no.5 will glow till script has ended. 
